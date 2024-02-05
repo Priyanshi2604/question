@@ -1,0 +1,63 @@
+body{
+    background-image: url("many-little-heart-make-big-heart-gif.gif");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    margin: 0%;
+}
+img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    margin-top: 160px;
+}
+.qq{
+    color: rgb(210, 83, 83);
+    text-align: center;
+    font-size: 60px;
+}
+.container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
+}
+.yes{
+    background-color:rgb(86, 171, 86);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.yes:hover {
+    background-color: #256c27; 
+}
+.no{
+    background-color:rgb(224, 67, 80);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+}
+.no:hover {
+    background-color: #8f1822; 
+}
+.yay{
+    color: purple;
+    text-align: center;
+    font-size: 100px;
+}

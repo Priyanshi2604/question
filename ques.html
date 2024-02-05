@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="kawaii-love.gif">
+    <div class="qq">Will you be my Valentine?</div>
+    <div class="container">
+        <button class="yes" onclick="goToNextPage()">Yes</button>
+        <button class="no" onclick="changeButton()">No</button>
+    </div>
+    <script>
+        function goToNextPage() {
+            window.open('yes.html');
+        }
+        function changeButton() {
+            var button = document.querySelector('.no');
+            var newPositionX = Math.random() * (window.innerWidth - button.offsetWidth);
+            var newPositionY = Math.random() * (window.innerHeight - button.offsetHeight);
+            var newContent = "No is not an answer";
+            button.style.left = newPositionX + 'px';
+            button.style.top = newPositionY + 'px';
+            button.innerHTML = newContent;
+        }
+    </script>
+</body>
+</html>
